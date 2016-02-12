@@ -1,0 +1,179 @@
+body {
+	font-size: 14px;
+	color: #333333;
+	font-family: arial, helvetica, sans-serif;
+	line-height: 1.4em;
+	background: white;
+}
+
+body.ministats {
+	background: black url(/202-img/202-bg.png) repeat-x;
+	)
+}
+
+.center {
+	width: 230px;
+	background: white;
+	padding: 1px 30px 20px 20px;
+	border-color: rgb(100, 100, 100);
+	border-style: double;
+	border-width: 3px;
+	color: #333333;
+	background: #e8e8e8 url(../../202-img/center_bg.png) repeat-x scroll 0 0
+}
+
+img {
+	border: 0px;
+}
+
+input,select {
+	font-size: 14px;
+	padding: 3px;
+	background: #F4F4F4 none repeat scroll 0%;
+	border: 1px solid #B2B2B2;
+}
+
+#user_name {
+	width: 140px;
+}
+
+#user_pass {
+	width: 140px;
+}
+
+#submit {
+	border-color: #CCCCCC rgb(153, 153, 153) rgb(153, 153, 153)
+		rgb(204, 204, 204);
+	border-style: double;
+	border-width: 3px;
+	color: #333333;
+}
+
+#forgot_pass {
+	font-size: 11px;
+	padding-left: -5px;
+	color: #CCCCCC;
+}
+
+.config th {
+	white-space: nowrap;
+	text-align: left;
+}
+
+.error {
+	color: #900;
+	font-size: 12px;
+}
+
+//
+.container {
+	color: #900;
+	font-size: 12px;
+}
+
+p,li,dt {
+	line-height: 140%;
+	padding-bottom: 2px;
+}
+
+.wrap {
+	text-shadow: 0px 0px;
+	width: 300px;
+	background: #12709E;
+	border: 1px solid black;
+	padding: 6px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	clear: both;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: rgba(70, 70, 70, 0.9) 3px 3px 9px;
+	-moz-box-shadow: rgba(70, 70, 70, 0.9) 3px 3px 9px;
+	box-shadow: rgba(70, 70, 70, 0.9) 3px 3px 9px;
+}
+
+.box-deleted {
+	clear: right;
+	position: static;
+	border-style: inset;
+	border-color: #7a7a7a;
+	border-width: 1px;
+	margin: 5px;
+	padding: 5px;
+	background: #39C;
+	font-size: 11px;
+	float: left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.col1 {
+	
+	height: 281px;
+}
+
+.dealHeader {
+	font-size: medium;
+	text-align: center;
+	text-shadow: 1px 1px 1px white;
+	background-color: #FFDE00;
+	color: black;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.dealContent {
+	text-align: justify;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	font-size: small;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	color: black;
+	background-color: white;
+}
+
+.dealFooter {
+	text-align: center;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	font-size: small;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	color: white;
+	background-color: white;
+}
+
+.shadow {
+	border-bottom-style: none;
+	border-right-style: none;
+	border-left-style: solid;
+	-webkit-box-shadow: rgba(70, 70, 70, 2.9) 2px 2px 3px;
+	-moz-box-shadow: rgba(70, 70, 70, 2.9) 2px 2px 3px;
+	box-shadow: rgba(70, 70, 70, 2.9) 2px 2px 3px;
+}
+
+.alt_row {
+	background-color: #ebeff9;
+}
+
+.m-row_pos { /*background:#A0F092 none repeat scroll 0%; */
+	background: url(/202-img/m-row-pos.gif) repeat-x;
+	text-align: center;
+	background-size: 100%;
+}
+
+.m-row_neg { /*background:#F09292 none repeat scroll 0%; */
+	background: url(/202-img/m-row-neg.gif) repeat-x;
+	text-align: center;
+	background-size: 100%;
+}
+
+.m-row_zero {
+	background: url(/202-img/m-row-zero.gif) repeat-x;
+	text-align: center;
+	background-size: 100%;
+}
